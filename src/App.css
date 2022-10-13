@@ -1,0 +1,314 @@
+/* Application */
+body {
+    background-color: #F0FFFF;
+}
+
+h1 {
+    color: rgb(211, 139, 210);
+    align-content: center;
+    text-align: center;
+}
+
+.applicationList {
+    min-width: 40rem;
+    padding: 0 2rem;
+    width: 70%;
+}
+
+.applicationList > h2 {
+    color: rgba(6, 80, 165, 0.38);
+}
+
+.applicationList > div > span {
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(23, 23, 22);
+    width: 22%;
+    padding-right: 10px;
+}
+
+.verticalLineRight {
+    border-right: solid .5px;
+}
+
+.verticalLineLeft {
+    border-right: solid .5px;
+}
+
+.bottomLine {
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+/* Login Page */
+
+.loginPageContainer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.loginPage {
+    display: flex;
+    width: 100%;
+    min-width: 750px;
+    max-width: 1000px;
+}
+
+.loginPage > div {
+    width: 50%;
+}
+
+.loginPage > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.loginPage > .verticalLineRight {
+    color: rgba(6, 80, 165, 0.38);
+}
+
+.loginImg {
+    width: 100%;
+}
+
+.login {
+    margin: 10% 2rem 0 2rem;
+    color: gray;
+}
+
+.login > h1 {
+    color: rgba(211, 17, 53, 0.38);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#usernameInput {
+    margin: .5rem 1rem 0 0;
+    width: 60%;
+    height: 2rem;
+    font-size: 14px;
+}
+
+#loginBtn {
+    color: rgba(6, 80, 165, 0.38);
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    height: 2.3rem;
+    width: 5rem;
+    border: 2px rgba(6, 80, 165, 0.38) solid;
+    border-radius: 4px;
+}
+
+#loginBtn:hover, #submitBtn:hover {
+    color: white;
+    background-color: rgba(6, 80, 165, 0.38);
+}
+
+#loginBtn:active, #submitBtn:active {
+    color: white;
+    background-color: rgb(20, 58, 20);
+}
+
+/*  Main Content - Header Panel */
+
+.headerPanel {
+    width: 100%;
+    min-width: 950px;
+    text-align: center;
+}
+
+.headerPanel > * {
+    margin: 1rem 1rem 0 0;
+}
+
+#logoutBtn {
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+    height: 1.5rem;
+    width: 4rem;
+    border: 1px #de0e0e solid;
+    border-radius: 2px;
+}
+
+#logoutBtn:hover {
+    color: white;
+    background-color: rgb(143, 100, 100);
+}
+
+#logoutBtn:active {
+    color: white;
+    background-color: rgb(85, 85, 85);
+}
+
+/* Main Content */
+
+.mainPanel {
+    display: flex;
+    margin: 4rem 0;
+}
+
+.mainPanel > .verticalLineLeft {
+    color: rgb(170, 169, 169);
+}
+
+.mainPanel > form > label > input {
+    margin: .25rem 0;
+    width: 12rem;
+}
+
+.mainPanel > form > label {
+    color: rgb(92, 92, 92);
+}
+
+.newApplicationPanel {
+    padding: 3rem 2rem;
+    width: 125px;
+}
+
+.newApplicationPanel > .errorMsg {
+    margin: 4rem 0 0 0 !important;
+}
+
+#submitBtn {
+    float: right;
+}
+
+#submitBtn {
+    margin: 1rem 0;
+    color: rgba(6, 80, 165, 0.38);
+    background-color: white;
+    font-weight: bold;
+    height: 1.5rem;
+    width: 4rem;
+    border: 2px rgba(6, 80, 165, 0.38) solid;
+    border-radius: 3px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    color: #9f0707;
+}
+
+li {
+    min-width: 651px;
+    border-top: 1px solid rgba(240, 239, 239);
+}
+
+li > * {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    word-break: break-all;
+    vertical-align: top;
+}
+
+li > span {
+    display: inline-block;
+    width: 22%;
+}
+
+li > :nth-child(6) {
+    width: 90%;
+    padding-bottom: 0;
+}
+
+li:hover {
+    background-color: rgb(184, 220, 167);
+}
+
+li > .notes {
+    padding-top: 0;
+    color: rgb(18, 97, 217);
+    white-space: pre-wrap;
+}
+
+#removeBtn {
+    margin: 0;
+    padding: 0 2.5px;
+    background-color: white;
+    color: rgb(223, 35, 2);
+    border-color: rgb(223, 35, 2);
+}
+
+#removeBtn:hover {
+    background-color: rgb(223, 35, 2);
+    color: white;
+}
+
+.tabs > * {
+    padding: 2px .5rem;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.tabs > button:hover {
+    filter: brightness(80%);
+}
+
+.inactive {
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+
+.All {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.Applied {
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 2px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.In-Review {
+    border: 2px solid rgb(228, 167, 0);
+    border-radius: 2px;
+    background-color: rgb(228, 167, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.Admission {
+    border: 2px solid rgba(6, 80, 165, 0.38);
+    border-radius: 2px;
+    background-color: rgba(10, 220, 27, 0.38);
+    color: white;
+    font-weight: bold;
+}
+
+.Declined {
+    border: 2px solid rgb(202, 0, 0);
+    border-radius: 2px;
+    background-color: rgb(202, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+select {
+    font-size: 14px;
+}
+
+select:focus {
+    outline-color: rgb(180, 115, 175);
+}
+
+.errorMsg, .red {
+    color: rgb(223, 35, 2);
+}
+
+.errorMsg {
+    margin-right: 5rem;
+    font-weight: bold;
+}
